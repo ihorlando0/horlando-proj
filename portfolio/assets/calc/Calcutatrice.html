@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Calculatrice</title>
+        <link href="style.css" rel="stylesheet" media="screen">
+        
+        <script type="text/javascript">
+            function dis(x){
+                if (x==1 || x==2 || x==3 || x==4 || x==5 || x==6 || x==7 || x==7 || x==8 || x==9 || x==0 || x=='(' || x==')'){
+                frm.txt.value=frm.txt.value+x;}
+                else{
+                    if(frm.txt.value.charAt(frm.txt.value.length-1)==x){}
+                    else{
+                        if(frm.txt.value.charAt(frm.txt.value.length-1)=='/' ||frm.txt.value.charAt(frm.txt.value.length-1)=='*' ||frm.txt.value.charAt(frm.txt.value.length-1)=='+' ||frm.txt.value.charAt(frm.txt.value.length-1)=='-' ||frm.txt.value.charAt(frm.txt.value.length-1)=='.'){
+                            frm.txt.value=frm.txt.value.slice(0,frm.txt.value.length-1);
+                        }
+                        frm.txt.value=frm.txt.value+x;
+                    }
+                }
+            }
+            function ce(){
+                frm.txt.value='';
+            }
+            function bs(){
+                frm.txt.value=frm.txt.value.slice(0,frm.txt.value.length-1);
+            }
+        </script>
+    </head>
+    <body>
+        <div id="container">
+            <form name="frm">
+                <input id="textbox" type="textbox" name="txt"><br>
+                <input class="btn" id="" type="button" value="(" onClick="dis(this.value)">
+                <input class="btn" id="" type="button" value=")" onClick="dis(this.value)">
+                <input class="btnc" id="" type="button" value="CE" onclick="ce(this.value)">
+                <input class="btnc" id="" type="button" value="BackSpace" onclick="bs(this.value)"><br>
+                <input class="btn" type="button" value="7" onClick="dis(this.value)">
+                <input class="btn" type="button" value="8" onClick="dis(this.value)">
+                <input class="btn" type="button" value="9" onClick="dis(this.value)">
+                <input class="btno" type="button" value="/" onClick="dis(this.value)"><br>
+                <input class="btn" type="button" value="4" onClick="dis(this.value)">
+                <input class="btn" type="button" value="5" onClick="dis(this.value)">
+                <input class="btn" type="button" value="6" onClick="dis(this.value)">
+                <input class="btno" type="button" value="*" onClick="dis(this.value)"><br>
+                <input class="btn" type="button" value="1" onClick="dis(this.value)">
+                <input class="btn" type="button" value="2" onClick="dis(this.value)">
+                <input class="btn" type="button" value="3" onClick="dis(this.value)">
+                <input class="btno" type="button" value="+" onClick="dis(this.value)"><br>
+                <input class="btn" type="button" value="." onClick="dis(this.value)">
+                <input class="btn" type="button" value="0" onClick="dis(this.value)">
+                <input class="btn" type="button" value="=" onClick="txt.value=eval(txt.value)">
+                <input class="btno" type="button" value="-" onClick="dis(this.value)">
+            </form>
+        </div>
+        <a href="../../index.html"><input type="button" class="" name="" value="retour"></a>
+    </body>
+</html>

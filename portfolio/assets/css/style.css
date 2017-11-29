@@ -1,0 +1,259 @@
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color:#00838f !important;
+    color: white;
+    
+    align-items: center;
+  position: relative;
+}
+
+.navbar-nav li a:hover {
+    color: #00838f !important;
+}
+
+.navbar-nav li a{
+  color: white !important;
+}
+
+.jumbotron {
+      background-color:  #00838f;
+      color: #fff;
+      padding: 100px 25px;
+  }
+  .container-fluid {
+      padding: 40px; 50px;
+  }
+  .bg-grey {
+      background-color: #f6f6f6;
+  }
+  .logo-small {
+      color:  white !important;
+      font-size: 50px;
+  }
+  .logo {
+      color:white !important;
+      font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+      }
+}
+
+#apr{
+   background-color: #00838f;    
+}
+
+#apr img{
+    width:400px;
+    height: 420px;
+}
+
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #00838f;
+}
+
+.carousel-indicators li {
+    border-color: #00838f;
+}
+
+.carousel-indicators li.active {
+    background-color: #00838f;
+}
+
+.item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+}
+
+.item span {
+    font-style: normal;
+}
+
+.glu{
+  font-size: 190px;
+  margin-left: 200px;
+  margin-top:50px;
+ color:  #00838f;
+
+}
+
+.cont{
+    background-color: white;
+    color: #00838f;
+    font-size: 150%;
+}
+
+#na{
+  animation-name: flash;
+  animation-duration:  6s;
+  animation-iteration-count: 1;
+  color: white;
+}
+
+#qui{
+  color:  #00838f;
+  font-size:300%;
+  animation-name: rubberBand;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+}
+
+.ism{
+  color: #00838f;
+}
+
+.moi{
+  color: white;
+}
+
+.mo{
+  color: #00838f;
+}
+
+.mi{
+  color: white;
+}
+
+.me{
+  color: #00838f;
+}
+
+.fb{
+  width: 50px;
+  height: auto;
+}
+
+#nav{
+  color: white;
+}
+
+#textbox{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 3px;
+    text-align: right;
+    width: 320px;
+    height: 52px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 30px;
+}
+#container{
+    border: 3px solid black;
+    width: 330px;
+    height: 450px;
+    border-radius: 5px;
+    background-color: #c6c6c6;
+}
+.btn1{
+    width: 40px;;
+    height: 40px;;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0px solid white;
+    font-size: 30px;
+}
+.btn1:hover{
+    background-color: #00838f;
+}
+.btnc{
+    width: 40px;;
+    height: 40px;;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0px solid white;
+    background-color:darkgrey;
+}
+.btnc:hover{
+    background-color: indianred;
+}
+.btno{
+    width: 40px;;
+    height: 40px;;
+    border-radius: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0px solid white;
+    font-size: 30px;
+    background-color:#00838f;
+}
+.btno:hover{
+    background-color: darkgoldenrod;
+}
+
+.wo{
+  background-color: #00838f;
+  color: white;
+}
+
+.footer-basic-centered{
+  background-color:#00838f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font: normal 18px sans-serif;
+
+  padding: 45px;
+  margin-top: 80px;
+}
+
+.footer-basic-centered .footer-company-motto{
+  color:  white;
+  font-size: 24px;
+  margin: 0;
+}
+
+.footer-basic-centered .footer-company-name{
+  color:  white;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+  list-style: none;
+  font-weight: bold;
+  color:  white;
+  padding: 35px 0 23px;
+  margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+  display:inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.sr{
+  color: #00838f;
+}
+
+.pr{
+  background-color: #00838f;
+}
+
+.ev{
+  background-color: white;
+}
+
+.pre{
+  background-color: #00838f;
+}
+
